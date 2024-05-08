@@ -10,7 +10,7 @@ def load_data():
     return df
 
 def plot_matplotlib():
-    st.title("**Bar Plot** with Seaborn")
+    st.ti("**Bar Plot** with Seaborn")
     df = load_data() # 데이터 불러오기->데이터프레임 구조 변환
     fig, ax = plt.subplots() # 시각화
     
